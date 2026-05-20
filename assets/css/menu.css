@@ -1,0 +1,6 @@
+/* Có thể mở rộng thêm trạng thái active, highlight trang hiện tại */
+.main-nav a.active,
+.mobile-nav a.active {
+    color: var(--color-primary-strong);
+    background-color: var(--color-primary-soft);
+}

@@ -1,0 +1,70 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&display=swap');
+@font-face {
+    font-family: Lexend;
+    src: url("../fonts/Lexend-VariableFont_wght.ttf") format("truetype");
+}
+
+:root {
+    --font-family-base: "Lexend", sans-serif;
+
+    /* --color-bg: #ffffff;
+    --color-bg-alt: #f5f7fb; */
+    --color-bg-elevated: #ffffff;
+
+    --color-bg: #f8f9fb;
+    /* sáng nhưng không trắng gắt */
+    --color-bg-alt: #eef1f5;
+    /* nền section nhẹ hơn */
+    --color-text: #0f172a;
+    /* đậm hơn chút */
+    --color-text-muted: #475569;
+    /* tối hơn để dễ đọc */
+
+    --color-primary: #2563eb;
+    --color-primary-soft: #dbeafe;
+    --color-primary-strong: #1d4ed8;
+
+    --color-border: #e5e7eb;
+
+    --shadow-soft: 0 10px 30px rgba(15, 23, 42, 0.08);
+    --radius-lg: 16px;
+    --radius-md: 10px;
+    --radius-sm: 6px;
+
+    --transition-fast: 0.2s ease;
+}
+
+/* Dark mode */
+body.theme-dark {
+    --color-bg: #333;
+    /* nền chính */
+    --color-bg-alt: #3d3d3d;
+    /* nền section */
+    --color-bg-elevated: #444;
+    /* card, box */
+    --color-text: #f1f5f9;
+    /* chữ sáng */
+    --color-text-muted: #cbd5e1;
+    /* chữ phụ */
+    --color-border: #555;
+    /* viền */
+
+    --color-primary: #60a5fa;
+    --color-primary-soft: #1d283a;
+    --color-primary-strong: #3b82f6;
+
+    /* --color-border: #1f2937; */
+
+    background-color: var(--color-bg);
+    color: var(--color-text);
+}
+
+body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--font-family-base);
+    margin: 0;
+    padding: 0;
+    -webkit-font-smoothing: antialiased;
+}

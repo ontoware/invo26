@@ -1,0 +1,58 @@
+/* Hero */
+.hero {
+    padding: 4rem 0 3rem;
+}
+
+.hero-inner {
+    display: grid;
+    grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr);
+    gap: 2.5rem;
+    align-items: center;
+}
+
+.hero-content h1 {
+    font-size: 2.1rem;
+    margin-bottom: 1rem;
+}
+
+.hero-subtitle {
+    color: var(--color-text-muted);
+    max-width: 520px;
+    margin-bottom: 1.5rem;
+}
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-bottom: 1.25rem;
+}
+
+.hero-highlights {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+}
+
+.hero-highlights li::before {
+    content: "• ";
+    color: var(--color-primary);
+}
+
+.hero-media .hero-placeholder {
+    border-radius: var(--radius-lg);
+    border: 1px dashed var(--color-border);
+    min-height: 220px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--color-text-muted);
+    box-shadow: var(--shadow-soft);
+}
+
+/* Resource grid spacing tweak */
+.resource-grid {
+    margin-top: 1rem;
+}

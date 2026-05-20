@@ -1,0 +1,91 @@
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    backdrop-filter: blur(12px);
+    background-color: color-mix(in srgb, var(--color-bg) 88%, transparent);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.header-inner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.75rem 0;
+    gap: 1rem;
+}
+
+.logo a {
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    padding-left: 1rem;
+}
+
+.logo-mark {
+    font-weight: 700;
+    font-size: 1.1rem;
+    color: var(--color-primary);
+}
+
+.logo-sub {
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+}
+
+.main-nav ul {
+    display: flex;
+    align-items: center;
+    /* gap: 1rem; */
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.main-nav a {
+    text-decoration: none;
+    color: var(--color-text-muted);
+    font-size: 0.9rem;
+    padding: 0.35rem 0.6rem;
+    border-radius: 999px;
+    transition: background-color var(--transition-fast), color var(--transition-fast);
+}
+
+.main-nav a:hover {
+    background-color: var(--color-primary-soft);
+    color: var(--color-primary-strong);
+}
+
+.header-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+/* Mobile nav */
+.mobile-nav {
+    display: none;
+    border-top: 1px solid var(--color-border);
+    background-color: var(--color-bg);
+}
+
+.mobile-nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0.5rem 1.5rem 1rem;
+}
+
+.mobile-nav li {
+    margin-bottom: 0.25rem;
+}
+
+.mobile-nav a {
+    display: block;
+    padding: 0.4rem 0;
+    text-decoration: none;
+    color: var(--color-text-muted);
+}
