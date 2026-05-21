@@ -43,13 +43,27 @@
 
 .hero-media .hero-placeholder {
     border-radius: var(--radius-lg);
+    padding: calc(var(--radius-lg)/2);
     border: 1px dashed var(--color-border);
-    min-height: 220px;
+    /* min-height: 220px; */
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color-text-muted);
     box-shadow: var(--shadow-soft);
+    background-color: var(--color-bg-elevated);
+    /* background-image: url("../img/thumbnail.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-attachment:local; */
+}
+
+.hero-placeholder>img{
+    height: 100%;
+    width: 100%;
+    border-radius: calc(var(--radius-lg)/2);
+    
 }
 
 /* Resource grid spacing tweak */

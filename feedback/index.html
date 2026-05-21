@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gửi phản hồi - Invo26</title>
+    <meta name="description"
+        content="Gửi phản hồi, báo lỗi hoặc yêu cầu hỗ trợ cho Invo26. Chúng tôi luôn sẵn sàng lắng nghe.">
+
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="apple-touch-icon" href="../assets/img/favicon.png"> <!--180-->
+    <!--facebook-->
+    <meta property="og:title" content="Gửi phản hồi - Invo26">
+    <meta property="og:description"
+        content="Gửi phản hồi, báo lỗi hoặc yêu cầu hỗ trợ cho Invo26. Chúng tôi luôn sẵn sàng lắng nghe.">
+    <meta property="og:image" content="https://invo26.nguyenhx.vn/asset/img/thumbnail.png">
+    <meta property="og:url" content="https://invo26.nguyenhx.vn/feedback">
+    <meta property="og:type" content="website">
+    <!--X-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Gửi phản hồi - Invo26">
+    <meta name="twitter:description"
+        content="Gửi phản hồi, báo lỗi hoặc yêu cầu hỗ trợ cho Invo26. Chúng tôi luôn sẵn sàng lắng nghe.">
+    <meta name="twitter:image" content="https://invo26.nguyenhx.vn/asset/img/thumbnail.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+    <link rel="stylesheet" href="../assets/css/layout.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/menu.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+
+<body class="theme-light">
+    <div class="page-wrapper">
+
+        <!-- Header -->
+        <header class="site-header">
+            <div class="container header-inner">
+                <div class="logo">
+                    <a href="/">
+                        <span class="logo-mark">Invo26</span>
+                        <span class="logo-sub">Giải pháp tạo HĐĐT hàng loạt</span>
+                    </a>
+                </div>
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="/">Trang chủ</a></li>
+                        <li><a href="/details/">Chi tiết</a></li>
+                        <li><a href="/download/">Tải xuống</a></li>
+                        <li><a href="/manual/">Hướng dẫn</a></li>
+                        <li><a class="active" href="/feedback/">Phản hồi</a></li>
+                        <li><a href="/privacy/">Chính sách</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button id="themeToggle" class="btn-icon">🌙</button>
+                    <button id="menuToggle" class="btn-icon menu-toggle">☰</button>
+                </div>
+            </div>
+
+            <nav class="mobile-nav" id="mobileNav">
+                <ul>
+                    <li><a href="/">Trang chủ</a></li>
+                    <li><a href="/details/">Chi tiết</a></li>
+                    <li><a href="/download/">Tải xuống</a></li>
+                    <li><a href="/manual/">Hướng dẫn</a></li>
+                    <li><a class="active" href="/feedback/">Phản hồi</a></li>
+                    <li><a href="/privacy/">Chính sách</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main class="site-main">
+
+            <!-- Hero -->
+            <section class="section">
+                <div class="container">
+                    <h1>Gửi phản hồi cho Invo26</h1>
+                    <p>Chúng tôi luôn lắng nghe để cải thiện sản phẩm tốt hơn.</p>
+                </div>
+            </section>
+
+            <!-- Form + Contact -->
+            <section class="section section-alt">
+                <div class="container" style="display:flex; gap:2rem; flex-wrap:wrap;">
+
+                    <!-- Form -->
+                    <div style="flex:1; min-width:300px;">
+                        <h2>Nội dung liên hệ</h2>
+
+                        <form id="feedbackForm" enctype="multipart/form-data">
+                            <label>Họ tên</label>
+                            <input type="text" id="name" name="name" required placeholder="Tên liên hệ"
+                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;">
+
+                            <label>Số điện thoại</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="SĐT để chúng tôi liên hệ lại"
+                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;">
+
+                            <label>Chủ đề</label>
+                            <select id="topic" name="topic" required
+                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;">
+                                <option value="Liên hệ đặt hàng">Liên hệ đặt hàng</option>
+                                <option value="Báo lỗi">Báo lỗi</option>
+                                <option value="Góp ý chức năng">Góp ý chức năng</option>
+                                <option value="Cần hỗ trợ">Cần hỗ trợ</option>
+                                <option value="Khác">Khác</option>
+                            </select>
+
+                            <label>Nội dung</label>
+                            <textarea id="message" name="message" rows="5" required placeholder="Nội dung yêu cầu/phản hồi..."
+                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;"></textarea>
+
+                            <!-- <label>Tải file đính kèm (ảnh hoặc .txt)</label>
+                            <input id="fileInput" type="file" name="file" accept=".jpg,.jpeg,.png,.txt"
+                                style="margin-bottom:0.5rem;">
+
+                            <p style="font-size:0.85rem; color:var(--color-text-muted); margin-bottom:1.5rem;">
+                                • Chỉ chấp nhận file .jpg, .jpeg, .png, .txt
+                                • Dung lượng tối đa: <strong>10MB</strong>
+                            </p> -->
+
+
+                            <button type="submit" class="btn btn-primary">Gửi phản hồi</button>
+
+                            <p id="formStatus" style="margin-top:1rem; font-weight:500;"></p>
+                        </form>
+                    </div>
+
+                    <!-- Contact info -->
+                    <div style="flex:1; min-width:260px;">
+                        <h2>Thông tin liên hệ</h2>
+                        <p>Nếu bạn cần hỗ trợ nhanh, hãy liên hệ trực tiếp với chúng tôi:</p>
+
+                        <ul>
+                            <li><strong>Điện thoại:</strong> 0961 196 404</li>
+                            <li><strong>Email:</strong> contact@nguyenhx.vn</li>
+                            <li><strong>Trang web:</strong> https://nguyenhx.vn</li>
+                        </ul>
+
+                        <h3>Kết nối mạng xã hội</h3>
+                        <ul>
+                            <li><a href="https://t.me/unindev" class="link">Telegram</a></li>
+                            <li><a href="https://zalo.me/0961196404" class="link">Zalo</a></li>
+                            <li><a href="https://facebook.com/61583719805842" class="link">Facebook</a></li>
+                            <li><a href="https://youtube.com/@unindev" class="link">Youtube</a></li>
+                        </ul>
+                    </div>
+
+                </div>
+            </section>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <div class="footer-left">
+                    <p>Invo26 ৹ Powered by Nguyenhx &copy; 2026<span id="year"></span></p>
+                </div>
+                <div class="footer-nav">
+                    <a href="/">Trang chủ</a>
+                    <a href="/details/">Chi tiết</a>
+                    <a href="/download/">Tải xuống</a>
+                    <a href="/manual/">Hướng dẫn</a>
+                    <a href="/feedback/">Phản hồi</a>
+                    <a href="/privacy/">Chính sách</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- JS -->
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/menu.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+    <!-- Form submit script -->
+    <script>
+    const form = document.getElementById("feedbackForm");
+    const statusEl = document.getElementById("formStatus");
+    const fileInput = document.getElementById("fileInput");
+
+    // URL Apps Script Web App của bạn
+    const SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyyDxNio-cjGF0uc_dTuaPqlBUNiF9UM1nL1nVdfxjHiR6ILWPcbJ_Kuieaermb-6PDZA/exec";
+
+    // Kiểm tra file trước khi gửi
+    // function validateFile(file) {
+    //     if (!file) return true; // không có file thì bỏ qua
+
+    //     const maxSize = 10 * 1024 * 1024; // 10MB
+    //     const allowedTypes = ["image/jpeg", "image/png", "text/plain"];
+
+    //     if (!allowedTypes.includes(file.type)) {
+    //         statusEl.textContent = "Chỉ chấp nhận file .jpg, .jpeg, .png hoặc .txt";
+    //         statusEl.style.color = "red";
+    //         return false;
+    //     }
+
+    //     if (file.size > maxSize) {
+    //         statusEl.textContent = "Dung lượng file vượt quá 10MB";
+    //         statusEl.style.color = "red";
+    //         return false;
+    //     }
+
+    //     return true;
+    // }
+
+    function validateInput(){
+        if(!document.getElementById("name").value){
+            alert("Vui lòng nhập tên");
+            return false;
+        }
+        if(!document.getElementById("phone").value){
+            alert("Vui lòng để lại số điện thoại");
+            return false;
+        }
+        if(!document.getElementById("message").value){
+            alert("Vui lòng để lại nội dung lời nhắn");
+            return false;
+        }
+        return true;
+    }
+
+    form.addEventListener("submit", async (e) => {
+        e.preventDefault();
+        if(!validateInput){
+            return;
+        }
+
+        // const file = fileInput.files[0];
+        // if (!validateFile(file)) return;
+
+        statusEl.textContent = "Đang gửi...";
+        statusEl.style.color = "";
+
+        const formData = new FormData(form);
+
+        try {
+            // Gửi request không bị CORS (nhưng không nhận được phản hồi)
+            await fetch(SCRIPT_URL, {
+                method: "POST",
+                mode: "no-cors", // để tránh lỗi CORS, Apps Script vẫn nhận được
+                // headers: {
+                // "Content-Type": "application/json",
+                // },
+                body: formData
+            });
+
+            // Vì no-cors không trả về response, ta báo thành công luôn
+            statusEl.textContent = "Gửi thành công! Cảm ơn bạn đã phản hồi. Vui lòng chú ý điện thoại, chúng tôi sẽ liên hệ với bạn từ số điện thoại 0961.196.404 trong thời gian sớm nhất.";
+            statusEl.style.color = "green";
+            form.reset();
+        }
+        catch (err) {
+            statusEl.textContent = "Không thể gửi phản hồi. Kiểm tra kết nối mạng.";
+            statusEl.style.color = "red";
+        }
+    });
+</script>
+
+
+</body>
+
+</html>

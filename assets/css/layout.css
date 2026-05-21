@@ -55,6 +55,7 @@ h1, h2, h3, h4 {
 p {
     margin: 0 0 0.75rem;
     line-height: 1.6;
+    word-wrap: break-word;
 }
 
 p.checksum{
@@ -217,11 +218,26 @@ p.checksum{
     gap: 1.5rem;
 }
 
+.section-cta .cta-actions{
+    display: flex;
+    gap: 1rem;
+    flex-wrap: wrap;
+}
+
+.section-cta .cta-actions .btn{
+    word-spacing: nowrap;
+    min-width: fit-content;
+    flex: 1;
+    
+}
+
 .section-cta .btn-outline {
     border-color: #ffffff;
     color: #ffffff;
+
 }
 
 .section-cta .btn-outline:hover {
     background-color: rgba(255, 255, 255, 0.12);
+
 }

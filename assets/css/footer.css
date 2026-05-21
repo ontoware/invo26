@@ -14,7 +14,10 @@
 
 .footer-left {
     color: var(--color-text-muted);
+    
 }
+
+
 
 .footer-nav {
     display: flex;

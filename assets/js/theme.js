@@ -26,6 +26,7 @@
             const next = isDark ? 'light' : 'dark';
             applyTheme(next);
             localStorage.setItem(THEME_KEY, next);
+            toggle.textContent = next === 'dark' ? "☀️" : "🌙";
         });
     }
 })();
