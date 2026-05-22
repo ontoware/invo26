@@ -5,6 +5,12 @@
     src: url("../fonts/Lexend-VariableFont_wght.ttf") format("truetype");
 }
 
+*,
+*::after,
+*::before{
+    box-sizing: border-box;
+}
+
 :root {
     --font-family-base: "Lexend", sans-serif;
 

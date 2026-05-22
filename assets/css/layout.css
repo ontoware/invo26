@@ -25,6 +25,24 @@ html, body {
     padding: 0 1.5rem;
 }
 
+.flex-row-wrapper{
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+    flex-wrap: wrap; 
+
+    & > div.flex-2{
+        flex: 2;
+        min-width: fit-content;
+        white-space: nowrap;
+    }
+    & > div.flex-1{
+        flex: 1;
+        min-width: fit-content;
+        white-space: nowrap;
+    }
+}
+
 .section {
     padding: 4rem 0;
     
@@ -185,6 +203,11 @@ p.checksum{
 .faq-list p {
     margin-top: 0.5rem;
     color: var(--color-text-muted);
+}
+
+.faq-list pre{
+    width: 100%;
+    white-space: pre-wrap;
 }
 
 /* Video placeholder */

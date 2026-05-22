@@ -7,9 +7,11 @@
         if (theme === 'dark') {
             body.classList.add('theme-dark');
             body.classList.remove('theme-light');
+            toggle.textContent = "☀️";
         } else {
             body.classList.add('theme-light');
             body.classList.remove('theme-dark');
+            toggle.textContent = "🌙";
         }
     }
 
@@ -26,7 +28,6 @@
             const next = isDark ? 'light' : 'dark';
             applyTheme(next);
             localStorage.setItem(THEME_KEY, next);
-            toggle.textContent = next === 'dark' ? "☀️" : "🌙";
         });
     }
 })();
