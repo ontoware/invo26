@@ -39,6 +39,12 @@
 
 .manual-sidebar li {
     margin-bottom: 0.6rem;
+    & > a::before{
+        content: "➤ ";
+        display: inline-block;
+        transform: scale(.8);
+        margin-right: 1ch;
+    }
 }
 
 .manual-sidebar a {
@@ -67,4 +73,26 @@
     border-radius: 12px;
     text-align: center;
     color: var(--color-text-muted);
+}
+
+details p.err-reason::before{
+    display: inline-block;
+    content: "Nguyên nhân lỗi: ";
+    text-decoration: underline;
+    font-size: small;
+    margin-right: 1ch;
+}
+details p.err-ans::before{
+    display: inline-block;
+    text-decoration: underline;
+    content: "Cách khắc phục: ";
+    font-size: small;
+    margin-right: 1ch;
+}
+
+#support li>strong{
+    display: inline-block;
+    min-width: 10ch;
+    width: fit-content;
+    
 }

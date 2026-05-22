@@ -1,0 +1,26 @@
+section.sec-feedback {
+    & .container {
+        display: flex;
+        gap: 2rem 3rem;
+        flex-wrap: wrap;
+    }
+
+    & form {
+        & input,
+        & select,
+        & textarea {
+            width: 100%;
+            padding: 0.7rem;
+            border-radius: 8px;
+            border: 1px solid var(--color-border);
+            margin-bottom: 1rem;
+        }
+    }
+
+    & ul>li>strong {
+        display: inline-block;
+        min-width: 10ch;
+        width: fit-content;
+
+    }
+}

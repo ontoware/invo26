@@ -32,6 +32,7 @@
     <link rel="stylesheet" href="../assets/css/menu.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/responsive.css" />
+    <link rel="stylesheet" href="../assets/css/feedback.css" />
 </head>
 
 <body class="theme-light">
@@ -88,7 +89,7 @@
             </section>
 
             <!-- Form + Contact -->
-            <section class="section section-alt">
+            <section class="section section-alt sec-feedback">
                 <div class="container" style="display:flex; gap:2rem 3rem; flex-wrap:wrap;">
 
                     <!-- Form -->
@@ -97,16 +98,13 @@
 
                         <form id="feedbackForm" enctype="multipart/form-data">
                             <label>Họ tên</label>
-                            <input type="text" id="name" name="name" required placeholder="Tên liên hệ"
-                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;">
+                            <input type="text" id="name" name="name" required placeholder="Tên liên hệ">
 
                             <label>Số điện thoại</label>
-                            <input type="tel" id="phone" name="phone" required placeholder="SĐT để chúng tôi liên hệ lại"
-                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;">
+                            <input type="tel" id="phone" name="phone" required placeholder="SĐT để chúng tôi liên hệ lại">
 
                             <label>Chủ đề</label>
-                            <select id="topic" name="topic" required
-                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;">
+                            <select id="topic" name="topic" required>
                                 <option value="Liên hệ đặt hàng">Liên hệ đặt hàng</option>
                                 <option value="Báo lỗi">Báo lỗi</option>
                                 <option value="Góp ý chức năng">Góp ý chức năng</option>
@@ -115,8 +113,7 @@
                             </select>
 
                             <label>Nội dung</label>
-                            <textarea id="message" name="message" rows="5" required placeholder="Nội dung yêu cầu/phản hồi..."
-                                style="width:100%; padding:0.7rem; border-radius:8px; border:1px solid var(--color-border); margin-bottom:1rem;"></textarea>
+                            <textarea id="message" name="message" rows="5" required placeholder="Nội dung yêu cầu/phản hồi..."></textarea>
 
                             <!-- <label>Tải file đính kèm (ảnh hoặc .txt)</label>
                             <input id="fileInput" type="file" name="file" accept=".jpg,.jpeg,.png,.txt"
@@ -140,9 +137,10 @@
                         <p>Nếu bạn cần hỗ trợ nhanh, hãy liên hệ trực tiếp với chúng tôi:</p>
 
                         <ul>
-                            <li><strong>Điện thoại:</strong> 0961 196 404</li>
-                            <li><strong>Email:</strong> contact@nguyenhx.vn</li>
-                            <li><strong>Trang web:</strong> https://nguyenhx.vn</li>
+                            
+                            <li><strong>Điện thoại:</strong> <a href="tel:0961196404" class="link">0961 196 404</a></li>
+                            <li><strong>Email:</strong> <a href="mailto:contact@nguyenhx.vn" class="link">contact@nguyenhx.vn</a></li>
+                            <li><strong>Trang web:</strong> <a href="https://nguyenhx.vn" class="link">nguyenhx.vn</a></li>
                         </ul>
 
                         <h3>Kết nối mạng xã hội</h3>

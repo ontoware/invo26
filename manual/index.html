@@ -1,0 +1,554 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Hướng dẫn sử dụng Invo26</title>
+    <meta name="description" content="Xem hướng dẫn sử dụng công cụ invo26 để tạo và tải hóa đơn điện tử hàng loạt.">
+
+    <link rel="icon" type="image/svg+xml" href="../assets/img/favicon.svg">
+    <link rel="apple-touch-icon" href="../assets/img/favicon.png"> <!--180-->
+    <!--facebook-->
+    <meta property="og:title" content="Hướng dẫn sử dụng Invo26">
+    <meta property="og:description"
+        content="Xem hướng dẫn sử dụng công cụ invo26 để tạo và tải hóa đơn điện tử hàng loạt.">
+    <meta property="og:image" content="https://invo26.nguyenhx.vn/assets/img/thumbnail.png">
+    <meta property="og:url" content="https://invo26.nguyenhx.vn/manual">
+    <meta property="og:type" content="website">
+    <!--X-->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Hướng dẫn sử dụng Invo26">
+    <meta name="twitter:description"
+        content="Xem hướng dẫn sử dụng công cụ invo26 để tạo và tải hóa đơn điện tử hàng loạt.">
+    <meta name="twitter:image" content="https://invo26.nguyenhx.vn/assets/img/thumbnail.png">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../assets/css/theme.css" />
+    <link rel="stylesheet" href="../assets/css/layout.css" />
+    <link rel="stylesheet" href="../assets/css/header.css" />
+    <link rel="stylesheet" href="../assets/css/footer.css" />
+    <link rel="stylesheet" href="../assets/css/menu.css" />
+    <link rel="stylesheet" href="../assets/css/manual.css" />
+    <link rel="stylesheet" href="../assets/css/responsive.css" />
+</head>
+
+<body class="theme-light">
+    <div class="page-wrapper">
+
+        <!-- Header -->
+        <header class="site-header">
+            <div class="container header-inner">
+                <div class="logo">
+                    <a href="/">
+                        <span class="logo-mark">Invo26</span>
+                        <span class="logo-sub">Hóa đơn điện tử hàng loạt</span>
+                    </a>
+                </div>
+
+                <nav class="main-nav">
+                    <ul>
+                        <li><a href="/">Trang chủ</a></li>
+                        <li><a href="/details/">Chi tiết</a></li>
+                        <li><a href="/download/">Tải xuống</a></li>
+                        <li><a class="active" href="/manual/">Hướng dẫn</a></li>
+                        <li><a href="/feedback/">Phản hồi</a></li>
+                        <li><a href="/privacy/">Chính sách</a></li>
+                    </ul>
+                </nav>
+
+                <div class="header-actions">
+                    <button id="themeToggle" class="btn-icon">🌓</button>
+                    <button id="menuToggle" class="btn-icon menu-toggle">☰</button>
+                </div>
+            </div>
+
+            <nav class="mobile-nav" id="mobileNav">
+                <ul>
+                    <li><a href="/">Trang chủ</a></li>
+                    <li><a href="/details/">Chi tiết</a></li>
+                    <li><a href="/download/">Tải xuống</a></li>
+                    <li><a class="active" href="/manual/">Hướng dẫn</a></li>
+                    <li><a href="/feedback/">Phản hồi</a></li>
+                    <li><a href="/privacy/">Chính sách</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main -->
+        <main class="site-main">
+
+            <!-- Hero -->
+            <section class="section">
+                <div class="container">
+                    <h1>Hướng dẫn sử dụng Invo26</h1>
+                    <!-- <p>Tra cứu hướng dẫn theo từng chức năng. Sử dụng ô tìm kiếm để tìm nhanh nội dung bạn cần.</p> -->
+
+                    <!-- <input id="manualSearch" type="text" placeholder="Tìm kiếm chức năng..."
+                       class="manual-search"> -->
+                </div>
+            </section>
+
+            <!-- Layout -->
+            <div class="container manual-layout">
+
+                <!-- Sidebar -->
+                <aside class="manual-sidebar">
+                    <h3>Mục lục</h3>
+                    <ul>
+                        <li><a href="#register">Đăng ký mới</a></li>
+                        <li><a href="#activate">Kích hoạt bằng mã khách hàng</a></li>
+                        <li><a href="#payment">Thanh toán</a></li>
+                        <li><a href="#create-template">Tạo biểu mẫu nhập liệu</a></li>
+                        <li><a href="#input-data">Chuẩn bị file dữ liệu</a></li>
+                        <li><a href="#config">Cấu hình tài khoản</a></li>
+                        <li><a href="#create-invoices">Tạo hóa đơn</a></li>
+                        <li><a href="#download-invoices">Tải hóa đơn đã phát hành</a></li>
+                        <li><a href="#info">Xem thông tin về sản phẩm</a></li>
+                        <li><a href="#update">Cập nhật</a></li>
+                        <li><a href="#support">Thông tin hỗ trợ</a></li>
+                        <li><a href="#error">Một số lỗi thường gặp</a></li>
+                    </ul>
+                </aside>
+
+                <!-- Content -->
+                <div class="manual-content">
+
+                    <section class="manual-section" id="register">
+                        <h2>Chức năng đăng ký</h2>
+                        <p>Tại lần sử dụng đầu tiên, phần mềm sẽ hiển thị form đăng ký. Người dùng chọn Đăng ký mới để
+                            tạo mới tài khoản. Trường hợp đã đăng ký gói kích hoạt trên nhiều thiết bị, người dùng chọn
+                            Kích hoạt bằng mã khách hàng.</p>
+
+                        <h3>Các bước thực hiện</h3>
+                        <ol>
+                            <li>Tại form đăng ký, người dùng chọn tab <strong>Đăng ký</strong></li>
+                            <li>Người dùng nhập đầy đủ thông tin trên form, sau đó nhấn <strong>Đăng ký</strong><br>
+                                Hệ thống tiến hành kiểm tra thông tin và khởi tạo thông tin đăng ký. Nếu thành công sẽ
+                                trả về thông tin thanh toán
+                            </li>
+                        </ol>
+                        <p>Sau khi đăng ký, người dùng có thể thanh toán ngay để kích hoạt hoặc dùng thử trong vòng 5
+                            ngày.</p>
+                    </section>
+                    <section class="manual-section" id="activate">
+                        <h2>Kích hoạt bằng mã khách hàng</h2>
+                        <p>Sau khi đăng ký thành công, người dùng sẽ được cấp 1 mã khách hàng. Sử dụng mã này để kích
+                            hoạt trên thiết bị khác bằng cách</p>
+                        <h3>Các bước thực hiện</h3>
+                        <ol>
+                            <li>Tại form đăng ký, người dùng chọn tab <strong>Kích hoạt bằng mã khách hàng</strong></li>
+                            <li>Người dùng chọn gói đã đăng ký và nhập mã khách hàng đã được cấp, sau đó nhấn
+                                <strong>Lấy mã kích hoạt<br>
+                                    Hệ thống kiểm tra thông tin và gửi mã kích hoạt về địa chỉ email người dùng đã đăng
+                                    ký</strong>
+                            </li>
+                            <li>Người dùng kiểm tra email để lấy mã kích hoạt nhập vào ô Mã kích hoạt rồi nhấn nút Kích
+                                hoạt để hoàn tất việc kích hoạt.<br>
+                                (Lưu ý kiểm tra các thư từ địa chỉ no-reply@nguyenhx.vn hoặc noreply.nguyenhx@gmail.com,
+                                bao gồm cả mục thư rác).</li>
+                        </ol>
+                        <p>Sau khi kích hoạt thành công, người dùng có thể sử dụng đầy đủ chức năng của phần mềm</p>
+                    </section>
+                    <section class="manual-section" id="payment">
+                        <h2>Thanh toán</h2>
+                        <p>Sau khi đăng ký thành công, phần mềm sẽ hiện QR và thông tin thanh toán</p>
+                        <p>Người dùng có thể quét mã QR bằng ứng dụng ngân hàng hoặc chuyển khoản theo đúng thông tin
+                            hiển thị trên form.</p>
+                        <p>Trường hợp chưa thanh toán ngay, người dùng chó thể chọn nút <strong>Lưu mã QR</strong> hoặc
+                            <strong>Lưu thông tin</strong> để thanh toán sau.
+                        </p>
+                        <p>Tại mỗi lần chạy, nếu người dùng chưa thanh toán, phần mềm sẽ hiển thị lại mã QR và thông tin
+                            thanh toán.</p>
+                        <p>Lưu ý, chỉ thực hiện thanh toán theo thông tin hiển thị trên phần mềm tải từ <a
+                                href="https://invo26.nguyenhx.vn/download/" class="link">nguồn chính thức</a> và phần
+                            mềm không bị chỉnh sửa (patch, repack, crack...). Để kiểm tra tính nguyên vẹn của phần mềm,
+                            người dùng truy cập trang tải xuống để xem mã SHA-256 của phiên bản tương ứng và so sánh với
+                            mã SHA-256 của file chương trình đang sử dụng <a href="https://invo26.nguyenhx.vn/download"
+                                class="link">bằng công cụ kiểm tra</a>.</p>
+                    </section>
+                    <section class="manual-section" id="create-template">
+                        <h2>Tạo file mẫu nhập dữ liệu</h2>
+                        <p>File dữ liệu đầu vào là file excel chứa biểu mẫu nhập dữ liệu, gồm các trường thông tin chính
+                            cho việc tạo dữ liệu hóa đơn. </p>
+                        <h3>Để tạo file dữ liệu đầu vào, người dùng thao tác như sau:</h3>
+                        <ol>
+                            <li>Tại giao diện chính, người dùng chọn tab <strong>Tạo hóa đơn</strong></li>
+                            <li>Tại tab Tạo hóa đơn, người dùng chọn <strong>Tải file mẫu nhập dữ liệu</strong></li>
+                            <li>Hộp thoại Tạo file nhập dữ liệu hiện lên, người dùng có thể nhấn nút Tải mẫu trống để
+                                tải file biểu mẫu về và chỉnh sửa hoặc tạo sẵn các trường thông tin khoản thu bằng cách
+                                nhấn nút Thêm ở mục Danh sách khoản thu rồi nhấn nút Tạo file mẫu để tải về file mẫu với
+                                các khoản thu được tạo sẵn.</li>
+                            <li>Để sửa thông tin khoản thu, người dùng chọn khoản thu trong mục Danh sách khoản thu, lúc
+                                này, bảng Thuộc tính khoản thu hiện ra ở bên phải hộp thoại, người dùng chỉnh sửa giá
+                                trị tương ứng. Giá trị sau khi chỉnh sửa sẽ tự động cập nhật vào khoản thu đang chọn.
+                            </li>
+                            <li>Để xóa khoản thu đã tạo, người dùng chọn khoản thu trong mục Danh sách khoản thu và nhấn
+                                nút Xóa</li>
+                            <li>Sau khi tải file mẫu nhập dữ liệu, người dùng thực hiện nhập thông tin dữ liệu hóa đơn
+                                cần tạo vào file biểu mẫu này</li>
+                        </ol>
+                    </section>
+                    <section class="manual-section" id="input-data">
+                        <h2>Nhập dữ liệu đầu vào</h2>
+                        <p>Cách nhập dữ liệu đầu vào được nêu chi tiết tại tab <strong>Hướng dẫn nhập</strong> của file
+                            biểu mẫu nhập liệu đi kèm phần mềm.</p>
+                    </section>
+                    <section class="manual-section" id="config">
+                        <h2>Cấu hình tài khoản</h2>
+                        <p>Tab <strong>Cấu hình</strong> chứa các thông tin về tài khoản, mã số thuế, ký hiệu, mẫu hóa
+                            đơn để thao tác tạo, tải hóa đơn</p>
+                        <h3>Các bước thực hiện</h3>
+                        <ol>
+                            <li>Người dùng chọn tab Cấu hình từ giao diện chính</li>
+                            <li>Nếu đã lưu cấu hình, người dùng có thể chọn mở lại cấu hình trong phần Chọn cấu hình
+                            </li>
+                            <li>Để lưu cấu hình, người dùng nhập thông tin cấu hình sau đó nhấn nút Lưu cấu hình</li>
+                            <li>Để xóa cấu hình đã lưu, người dùng chọn cấu hình sau đó nhấn nút Xóa cấu hình</li>
+                            <li>Để lưu cấu hình thành file có thể chuyển sang thiết bị khác, người dùng chọn nút Xuất
+                                cấu hình. Có hộp thoại hiện lên để xác nhận xuất tất cả cấu hình đã lưu hay chỉ cấu hình
+                                đang mở</li>
+                            <li>Người dùng có thể nhập lại cấu hình đã xuất bằng cách nhấn nút Nhập cấu hình rồi chọn
+                                đến file lưu cấu hình</li>
+                        </ol>
+                    </section>
+                    <section class="manual-section" id="create-invoices">
+                        <h2>Tạo hóa đơn</h2>
+                        <p>Chức năng tạo hóa đơn hàng loạt từ file dữ liệu nhập vào</p>
+                        <h3>Các bước thực hiện</h3>
+                        <ol>
+                            <li>Người dùng chọn thông tin cấu hình tại tab Cấu hình</li>
+                            <li>Người dùng chọn tab Tạo hóa đơn trên giao diện chính</li>
+                            <li>Nhấn nút Chọn file dữ liệu HĐ để chọn file chứa dữ liệu. Nếu chưa có file này, chọn Tải
+                                file mẫu nhập dữ liệu để nhập dữ liệu cho các hóa đơn cần tạo. </li>
+                            <li>Người dùng chọn sheet chứa dữ liệu. Phần mềm sẽ đọc dữ liệu tương ứng và hiện kết quả
+                                đọc, đối chiếu lên vùng <strong>2. Kiểm tra dữ liệu</strong></li>
+                            <li>Người dùng kiểm tra kết quả, nếu kết quả chưa đúng, có thể chọn Tạo file excel dữ liệu
+                                chuẩn để kiểm tra lại</li>
+                            <li>Sau khi kiểm tra dữ liệu và thông tin cấu hình đã chọn, người dùng check vào 2 ô xác
+                                nhận rồi chọn nút TẢI DỮ LIỆU LÊN để bắt đầu tiến trình tạo hóa đơn</li>
+                        </ol>
+                    </section>
+                    <section class="manual-section" id="download-invoices">
+                        <h2>Tải hóa đơn đã phát hành</h2>
+                        <p>Tải về bản thể hiện của hóa đơn đã phát hành. Có thể tải nhiều hóa đơn cùng lúc.</p>
+                        <h3>Các bước thực hiện</h3>
+                        <ol>
+                            <li>Người dùng chọn thông tin cấu hình tại tab Cấu hình.</li>
+                            <li>Người dùng chọn tab Tải HĐ đã phát hành.</li>
+                            <li>Người dùng nhập thông tin hóa đơn cần tải gồm Mẫu hóa đơn, Ký hiệu hóa đơn; dải số hóa
+                                đơn (Từ số ... đến số ...) và chọn hình thức lưu kết quả rồi nhấn Tải về để bắt đầu tiến
+                                trình tải hóa đơn.</li>
+                            <li>Hóa đơn tải về dạng file pdf được lưu tại vị trí người dùng đã chọn.</li>
+                        </ol>
+                    </section>
+                    <section class="manual-section" id="info">
+                        <h2>Xem thông tin về sản phẩm</h2>
+                        <p>Người dùng chọn tab <strong>Giới thiệu</strong> để xem các thông tin về sản phẩm.</p>
+                    </section>
+                    <section class="manual-section" id="update">
+                        <h2>Cập nhật</h2>
+                        <p>Để cập nhật sản phẩm, người dùng truy cập <a href="https://invo26.nguyenhx.vn/download/" class="link">trang tải xuống</a> tải về bản mới nhất để sử dụng</p>
+                        <p>Phần mềm được triển khai dưới dạng 1 file exe duy nhất nên không cần cài đặt.</p>
+                    </section>
+                    <section class="manual-section" id="support">
+                        <h2>Thông tin hỗ trợ</h2>
+                        <p>Người dùng chọn tab Hỗ trợ từ giao diện chính để xem các thông tin liên hệ, phản hồi hoặc liên hệ qua các kênh sau:</p>
+                        <ul>
+                            <li><strong>Điện thoại:</strong> <a href="tel:0961196404" class="link">0961 196 404</a></li>
+                            <li><strong>Email:</strong> <a href="mailto:contact@nguyenhx.vn" class="link">contact@nguyenhx.vn</a></li>
+                            <li><strong>Trang web:</strong> <a href="https://nguyenhx.vn" class="link">nguyenhx.vn</a></li>
+                            <li><strong>Zalo:</strong> <a href="https://zalo.me/0961196404" class="link">zalo.me/0961196404</a></li>
+                            <li><strong>Telegram:</strong> <a href="t.me/unindev" class="link">t.me/unindev</a></li>
+                        </ul>
+                    </section>
+                    <section class="manual-section" id="error">
+                        <h2>Một số lỗi thường gặp</h2>
+                        <p>Dưới đây là một số lỗi thường gặp và cách khắc phục</p>
+                        <div class="faq-list">
+                            <details>
+                                <summary>Chưa chọn cấu hình</summary>
+                                <p class="err-reason">Chưa chọn cấu hình ở tab Cấu hình.</p>
+                                <p class="err-ans">Mở tab Cấu hình để chọn cấu hình đã lưu hoặc nhập mới cấu hình.</p>
+                                <!-- <iframe></iframe> -->
+                            </details>
+                            <details>
+                                <summary>Không có dữ liệu XML hóa đơn</summary>
+                                <p class="err-reason">Chưa chọn file dữ liệu hoặc không có dữ liệu để tạo hóa đơn</p>
+                                <p class="err-ans">Kiểm tra lại file dữ liệu đầu vào</p>
+                            </details>
+                            <details>
+                                <summary>Không có danh sách hóa đơn</summary>
+                                <p class="err-reason">Chưa chọn file dữ liệu hoặc không có dữ liệu để tạo hóa đơn</p>
+                                <p class="err-ans">Kiểm tra lại dữ liệu đầu vào</p>
+                            </details>
+                            <details>
+                                <summary>Không tạo được dữ liệu XML.</summary>
+                                <p class="err-reason">Chưa chọn file dữ liệu hoặc không có dữ liệu để tạo hóa đơn</p>
+                                <p class="err-ans">Kiểm tra lại dữ liệu đầu vào</p>
+                            </details>
+                            <details>
+                                <summary>Lỗi khi lưu XML</summary>
+                                <p class="err-reason">Xảy ra lỗi trong quá trình lưu file xml. Chi tiết lỗi xem tại mục
+                                    2. Kiểm tra dữ liệu.</p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Không có dữ liệu hóa đơn</summary>
+                                <p class="err-reason">Chưa chọn file dữ liệu hoặc không có dữ liệu để tạo hóa đơn</p>
+                                <p class="err-ans">Kiểm tra lại dữ liệu đầu vào</p>
+                            </details>
+                            <details>
+                                <summary>Lỗi khi xuất Excel</summary>
+                                <p class="err-reason">Xảy ra lỗi trong quá trình lưu file excel dữ liệu chuẩn. Chi tiết
+                                    lỗi xem tại mục 2. Kiểm tra dữ liệu.</p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Không tìm thấy sheet nào</summary>
+                                <p class="err-reason">Không đọc được danh sách sheet trong file dữ liệu</p>
+                                <p class="err-ans">Kiểm tra lại file dữ liệu đầu vào</p>
+                            </details>
+                            <details>
+                                <summary>Có lỗi khi mở file</summary>
+                                <p class="err-reason">Xảy ra lỗi trong quá trình mở file. Chi tiết lỗi xem tại mục 2.
+                                    Kiểm tra dữ liệu.</p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Đọc dữ liệu không thành công. ...</summary>
+                                <p class="err-reason">Xảy ra lỗi khi đọc dữ liệu. Chi tiết lỗi xem kèm theo thông báo.
+                                </p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Không tạo được xml hóa đơn!</summary>
+                                <p class="err-reason">Xảy ra lỗi khi tạo dữ liệu hóa đơn từ dữ liệu ở file nhập vào</p>
+                                <p class="err-ans">Kiểm tra lại dữ liệu và thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ
+                                    nhà phát triển để được hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Có lỗi khi mở sheet</summary>
+                                <p class="err-reason">Xảy ra lỗi khi đọc dữ liệu, chi tiết lỗi xem kèm theo thông báo.
+                                </p>
+                                <p class="err-ans">Kiểm tra lại dữ liệu và thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ
+                                    nhà phát triển để được hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Không đọc được thông tin cấu hình tài khoản</summary>
+                                <p class="err-reason">Không tìm thấy file lưu cấu hình hoặc file bị lỗi hoặc không có
+                                    nội dung.</p>
+                                <p class="err-ans">Nếu chắc chắn có dữ liệu cấu hình mà xảy ra lỗi thì mở lại phần mềm.
+                                    Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Không đọc được thông tin cấu hình cần mở</summary>
+                                <p class="err-reason">Xảy ra lỗi khi đọc thông tin cấu hình</p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Lưu cấu hình không thành công</summary>
+                                <p class="err-reason">Xảy ra lỗi khi lưu cấu hình. Có thể do file cấu hình bị khóa hoặc
+                                    phần mềm không có quyền ghi vào thư mục lưu cấu hình</p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Không xóa được {cấu hình}</summary>
+                                <p class="err-reason">Xảy ra lỗi khi xóa cấu hình.</p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Xuất cấu hình không thành công</summary>
+                                <p class="err-reason">Xảy ra lỗi khi xuất cấu hình. </p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Nhập cấu hình không thành công</summary>
+                                <p class="err-reason">Xảy ra lỗi khi nhập cấu hình. Có thể do định dạng file nhập vào
+                                    không đúng, dữ liệu bị hỏng hoặc file bị khóa.</p>
+                                <p class="err-ans">Kiểm tra lại tình trạng file và thao tác lại. Nếu vẫn xảy ra lỗi, hãy
+                                    liên hệ nhà phát triển để được hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Chưa chọn cấu hình</summary>
+                                <p class="err-reason">Chưa chọn cấu hình tại tab Cấu hình</p>
+                                <p class="err-ans">Mở tab Cấu hình để chọn cấu hình đã lưu hoặc nhập mới cấu hình</p>
+                            </details>
+                            <details>
+                                <summary>Lỗi tải tải hóa đơn</summary>
+                                <p class="err-reason">Xảy ra lỗi khi tải hóa đơn. Chi tiết lỗi xem trong thông báo.</p>
+                                <p class="err-ans">Thao tác lại. Nếu vẫn xảy ra lỗi, hãy liên hệ nhà phát triển để được
+                                    hỗ trợ.</p>
+                            </details>
+                            <details>
+                                <summary>Đã xảy ra lỗi. Vui lòng gửi file {...} đến địa chỉ contact@nguyenhx.vn để được
+                                    hỗ trợ</summary>
+                                <p class="err-reason">Đã xảy ra lỗi không mong muốn trong quá trình sử dụng khiến phần
+                                    mềm không hoạt động đúng. Chi tiết lỗi sẽ được ghi trong file log với địa chỉ nêu
+                                    trong thông báo.</p>
+                                <p class="err-ans">Người dùng liên hệ nhà phát triển và gửi file log theo thông báo để
+                                    được hỗ trợ xử lý.</p>
+                            </details>
+                            <details>
+                                <summary>Có lỗi xảy ra nhưng không ghi được file log</summary>
+                                <p class="err-reason">Xảy ra lỗi không mong muốn khiến phần mềm không hoạt động được,
+                                    đồng thời phần mềm không ghi được file log. Chi tiết lỗi sẽ được hiển thị trong
+                                    thông báo tiếp theo.</p>
+                                <p class="err-ans">Người dùng chụp lại thông báo chi tiết lỗi và liên hệ nhà phát triển
+                                    để được hỗ trợ xử lý.</p>
+                            </details>
+
+
+                        </div>
+                    </section>
+
+                    <!-- Excel -->
+                    <section id="excel" class="manual-section" data-title="excel tạo hóa đơn import file excel">
+                        <h2>Tạo hóa đơn từ Excel</h2>
+                        <p>Chức năng cho phép import dữ liệu hóa đơn từ file Excel theo mẫu chuẩn.</p>
+
+                        <h3>Các bước thực hiện</h3>
+                        <ol>
+                            <li>Tải file Excel mẫu từ trang Tài nguyên.</li>
+                            <li>Điền đầy đủ thông tin hóa đơn.</li>
+                            <li>Mở Invo26 → chọn “Import Excel”.</li>
+                            <li>Kiểm tra lỗi dữ liệu (nếu có).</li>
+                            <li>Nhấn “Tạo hóa đơn”.</li>
+                        </ol>
+
+                        <div class="manual-media">Ảnh minh họa</div>
+                    </section>
+
+                    <!-- Sign -->
+                    <section id="sign" class="manual-section" data-title="ký số usb token chữ ký số">
+                        <h2>Ký số hóa đơn</h2>
+                        <p>Invo26 hỗ trợ ký số tự động bằng USB Token hoặc HSM.</p>
+
+                        <h3>Các bước thực hiện</h3>
+                        <ol>
+                            <li>Cắm USB Token vào máy tính.</li>
+                            <li>Mở Invo26 → chọn “Cấu hình ký số”.</li>
+                            <li>Chọn chứng thư số.</li>
+                            <li>Nhấn “Ký hóa đơn”.</li>
+                        </ol>
+
+                        <div class="manual-media">Ảnh minh họa</div>
+                    </section>
+
+                    <!-- API -->
+                    <section id="api" class="manual-section" data-title="api tích hợp rest api erp crm">
+                        <h2>Tích hợp API</h2>
+                        <p>API RESTful giúp hệ thống của bạn tự động gửi dữ liệu hóa đơn đến Invo26.</p>
+
+                        <h3>Các bước tích hợp</h3>
+                        <ol>
+                            <li>Lấy API Key trong phần Cài đặt.</li>
+                            <li>Gửi request POST đến endpoint <code>/api/invoice/create</code>.</li>
+                            <li>Nhận phản hồi trạng thái xử lý.</li>
+                            <li>Kiểm tra hóa đơn trong mục “Quản lý hóa đơn”.</li>
+                        </ol>
+
+                        <div class="manual-media">Ảnh minh họa</div>
+                    </section>
+
+                    <!-- Manage -->
+                    <section id="manage" class="manual-section" data-title="quản lý hóa đơn xem hóa đơn lọc hóa đơn">
+                        <h2>Quản lý hóa đơn</h2>
+                        <p>Xem danh sách hóa đơn, lọc theo trạng thái, ngày tạo, khách hàng.</p>
+
+                        <h3>Các bước sử dụng</h3>
+                        <ol>
+                            <li>Mở mục “Quản lý hóa đơn”.</li>
+                            <li>Chọn bộ lọc phù hợp.</li>
+                            <li>Xem chi tiết hoặc xuất báo cáo.</li>
+                        </ol>
+
+                        <div class="manual-media">Ảnh minh họa</div>
+                    </section>
+
+                    <!-- Report -->
+                    <section id="report" class="manual-section" data-title="báo cáo xuất báo cáo thống kê">
+                        <h2>Xuất báo cáo</h2>
+                        <p>Xuất báo cáo tổng hợp theo ngày, tháng, khách hàng hoặc loại hóa đơn.</p>
+
+                        <h3>Cách thực hiện</h3>
+                        <ol>
+                            <li>Vào mục “Báo cáo”.</li>
+                            <li>Chọn loại báo cáo.</li>
+                            <li>Nhấn “Xuất file”.</li>
+                        </ol>
+
+                        <div class="manual-media">Ảnh minh họa</div>
+                    </section>
+
+                    <!-- Settings -->
+                    <section id="settings" class="manual-section" data-title="cài đặt cấu hình hệ thống thiết lập">
+                        <h2>Cài đặt hệ thống</h2>
+                        <p>Cấu hình thông tin doanh nghiệp, API Key, chứng thư số và các tùy chọn khác.</p>
+
+                        <h3>Các bước</h3>
+                        <ol>
+                            <li>Mở mục “Cài đặt”.</li>
+                            <li>Điền thông tin doanh nghiệp.</li>
+                            <li>Cấu hình API Key.</li>
+                            <li>Lưu thay đổi.</li>
+                        </ol>
+
+                        <div class="manual-media">Ảnh minh họa</div>
+                    </section>
+
+                </div>
+            </div>
+
+        </main>
+
+        <!-- Footer -->
+        <footer class="site-footer">
+            <div class="container footer-inner">
+                <div class="footer-left">
+                    <p>Invo26 ৹ Powered by Nguyenhx &copy; 2026<span id="year"></span></p>
+                </div>
+                <div class="footer-nav">
+                    <a href="/">Trang chủ</a>
+                    <a href="/details/">Chi tiết</a>
+                    <a href="/download/">Tải xuống</a>
+                    <a href="/manual/">Hướng dẫn</a>
+                    <a href="/feedback/">Phản hồi</a>
+                    <a href="/privacy/">Chính sách</a>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- JS -->
+    <script src="../assets/js/theme.js"></script>
+    <script src="../assets/js/menu.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+    <!-- Search -->
+    <!-- <script>
+    const searchInput = document.getElementById("manualSearch");
+    const sections = document.querySelectorAll(".manual-section");
+
+    searchInput.addEventListener("input", function () {
+        const keyword = this.value.toLowerCase().trim();
+
+        sections.forEach(sec => {
+            const text = sec.dataset.title;
+            sec.style.display = text.includes(keyword) ? "block" : "none";
+        });
+    });
+</script> -->
+
+</body>
+
+</html>
