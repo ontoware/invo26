@@ -21,7 +21,7 @@ document.querySelector("#btn-share").addEventListener('click', (e)=>{
         
     const shareData = {
         title: 'Invo26',
-        text: "Invo26 - Giải pháp tạo hóa đơn điện tử hàng loạt nhanh chóng và chính xác. Tải về tại: https://invo26.nguyenhx.vn/download ",
+        text: "\nInvo26 - Giải pháp tạo hóa đơn điện tử hàng loạt nhanh chóng và chính xác.\nTải về tại: https://invo26.nguyenhx.vn/download ",
         url: lnk
     };
     
