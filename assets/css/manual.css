@@ -64,6 +64,11 @@
 
 .manual-section {
     margin-bottom: 3rem;
+
+    &>h2::before{
+        content: "📃";
+        margin-right: 1ch;
+    }
 }
 
 .manual-media {
