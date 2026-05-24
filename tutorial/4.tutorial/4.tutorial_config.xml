@@ -1,0 +1,44 @@
+<x:xmpmeta tsc:version="2.0.1" xmlns:x="adobe:ns:meta/" xmlns:tsc="http://www.techsmith.com/xmp/tsc/">
+   <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:xmp="http://ns.adobe.com/xap/1.0/" xmlns:xmpDM="http://ns.adobe.com/xmp/1.0/DynamicMedia/" xmlns:xmpG="http://ns.adobe.com/xap/1.0/g/" xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/" xmlns:tscDM="http://www.techsmith.com/xmp/tscDM/" xmlns:tscIQ="http://www.techsmith.com/xmp/tscIQ/" xmlns:tscHS="http://www.techsmith.com/xmp/tscHS/" xmlns:stDim="http://ns.adobe.com/xap/1.0/sType/Dimensions#" xmlns:stFnt="http://ns.adobe.com/xap/1.0/sType/Font#" xmlns:exif="http://ns.adobe.com/exif/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/">
+      <rdf:Description dc:date="2026-05-25 12:30:24 SA" dc:source="Camtasia,22.1.0,enu" dc:title="4.tutorial" dc:description="Hướng dẫn tạo và tải hóa đơn bằng Invo26" tscDM:firstFrame="4.tutorial_First_Frame.png" tscDM:originId="0C8F3EC2-7149-4F4A-B125-EA240911106A" tscDM:project="4.tutorial">
+         <xmpDM:duration xmpDM:scale="1/1000" xmpDM:value="115066"/>
+         <xmpDM:videoFrameSize stDim:unit="pixel" stDim:h="1080" stDim:w="1920"/>
+         <tsc:langName>
+            <rdf:Bag>
+               <rdf:li xml:lang="en-US">English</rdf:li></rdf:Bag>
+         </tsc:langName>
+         <xmpDM:Tracks>
+            <rdf:Bag>
+               <rdf:li>
+                  <rdf:Description xmpDM:trackType="Caption" xmpDM:frameRate="f1000" xmpDM:trackName="Captioning" stFnt:fontFamily="Arial" tscDM:fontSize="64" tscDM:bgOpacity="0.750000" tscDM:position="overlay">
+                     <xmpDM:markers>
+                        <rdf:Seq>
+                           <rdf:li><rdf:Description xmpDM:duration="2533" xmpDM:startTime="1133" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 PHẦN 1: TẠO HÓA ĐƠN}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4900" xmpDM:startTime="3667" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 1. Chuẩn bị dữ liệu theo biểu mẫu}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="10900" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 2. Tại tab Hóa đơn, nhấn nút Chọn file dữ liệu HĐ để mở file dữ liệu đã chuẩn bị}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="3067" xmpDM:startTime="16667" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 3. Chọn sheet chứa dữ liệu hóa đơn đã chuẩn bị}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="3033" xmpDM:startTime="20433" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 Phần mềm sẽ đọc và kiểm tra dữ liệu.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="9333" xmpDM:startTime="27800" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 4. Kiểm tra lại số liệu đã đúng chưa}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="39567" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 5. Xác nhận thông tin và dữ liệu hóa đơn đã đúng và nhấn nút Tải dữ liệu lên}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="46800" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 6. Kiểm tra kết quả tạo hóa đơn tại mục Kết quả.}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="56300" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 PHẦN 2: CHỨC NĂNG TẢI HÓA ĐƠN VỀ MÁY}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="60300" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 1. Chọn tab Tải HĐ đã phát hành}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="64300" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 2. Nhập thông tin hóa đơn, dải số cần tải}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="5767" xmpDM:startTime="71833" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 3. Chọn hình thức lưu kết quả và vị trí lưu}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="81700" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 4. Nhấn tải về để bắt đầu tải và lưu hóa đơn về máy}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li><rdf:li><rdf:Description xmpDM:duration="4000" xmpDM:startTime="100800" tscDM:valign="bottom" tscDM:halign="center"><xmpDM:name><rdf:Alt><rdf:li xml:lang="en-US">{\rtf1 5. Xem kết quả tải hóa đơn tại mục Kết quả}</rdf:li></rdf:Alt></xmpDM:name></rdf:Description></rdf:li></rdf:Seq>
+                     </xmpDM:markers>
+                     <tsc:fgColor xmpG:red="255" xmpG:green="255" xmpG:blue="255"/><tsc:bgColor xmpG:red="0" xmpG:green="0" xmpG:blue="0"/></rdf:Description>
+               </rdf:li>
+            </rdf:Bag>
+         </xmpDM:Tracks>
+         <tscDM:controller>
+            <rdf:Description xmpDM:name="tscplayer">
+               <tscDM:parameters>
+                  <rdf:Bag>
+                     <rdf:li xmpDM:name="autohide" xmpDM:value="true"/><rdf:li xmpDM:name="autoplay" xmpDM:value="false"/><rdf:li xmpDM:name="loop" xmpDM:value="false"/><rdf:li xmpDM:name="searchable" xmpDM:value="true"/><rdf:li xmpDM:name="captionsenabled" xmpDM:value="false"/><rdf:li xmpDM:name="sidebarenabled" xmpDM:value="false"/><rdf:li xmpDM:name="unicodeenabled" xmpDM:value="false"/><rdf:li xmpDM:name="backgroundcolor" xmpDM:value="111111"/><rdf:li xmpDM:name="sidebarlocation" xmpDM:value="left"/><rdf:li xmpDM:name="endaction" xmpDM:value="stop"/><rdf:li xmpDM:name="endactionparam" xmpDM:value="true"/><rdf:li xmpDM:name="locale" xmpDM:value="en-US"/></rdf:Bag>
+               </tscDM:parameters>
+               <tscDM:controllerText>
+                  <rdf:Bag>
+                  </rdf:Bag>
+               </tscDM:controllerText>
+            </rdf:Description>
+         </tscDM:controller>
+         <tscDM:contentList>
+            <rdf:Description>
+               <tscDM:files>
+                  <rdf:Seq>
+                     <rdf:li xmpDM:name="0" xmpDM:value="4.tutorial.mp4"/><rdf:li xmpDM:name="1" xmpDM:value="4.tutorial_First_Frame.png"/></rdf:Seq>
+               </tscDM:files>
+            </rdf:Description>
+         </tscDM:contentList>
+      </rdf:Description>
+   </rdf:RDF>
+</x:xmpmeta>
