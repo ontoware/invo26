@@ -218,7 +218,7 @@ p.checksum{
 
 .video-frame {
     width: fit-content;
-    max-width: 720px;
+    max-width: min(100%, 720px);
     height: fit-content;
     max-height: 1280px;
     padding: 1rem;
