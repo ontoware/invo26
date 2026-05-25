@@ -217,15 +217,18 @@ p.checksum{
 }
 
 .video-frame {
-    width: 100%;
+    width: fit-content;
     max-width: 720px;
-    aspect-ratio: 16 / 9;
+    height: fit-content;
+    max-height: 1280px;
+    padding: 1rem;
     border-radius: var(--radius-lg);
     border: 1px dashed var(--color-border);
     display: flex;
     align-items: center;
     justify-content: center;
     color: var(--color-text-muted);
+    background-color: #111;
 }
 
 /* CTA */
