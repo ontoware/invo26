@@ -220,7 +220,7 @@ p.checksum{
     width: fit-content;
     max-width: min(100%, 720px);
     height: fit-content;
-    max-height: 1280px;
+    /* max-height: 1280px;  */
     padding: 1rem;
     border-radius: var(--radius-lg);
     border: 1px dashed var(--color-border);

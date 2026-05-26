@@ -82,7 +82,7 @@
             <section class="section">
                 <div class="container">
                     <div class="feature-item" style="margin-top: 2rem;">
-                        <h2 >Phiên bản hiện tại: <span id="last-version">v1.1.2605</span></h2>
+                        <h2 >Phiên bản hiện tại: <span id="last-version">v1.2.2605</span></h2>
                         <p><strong>Ngày phát hành:</strong> <span id="last-release">24/5/2026</span></p>
 
                         <h3>Chức năng chính:</h3> <!-- <h3>Nội dung cập nhật</h3> -->
@@ -92,15 +92,15 @@
                             <li>Tải hóa hàng loạt hóa đơn đầu ra (file pdf)</li>
                         </ul>
 
-                        <a href="https://hub.nguyenhx.vn/invo26/release/Invo26_v1.1.2605.24.rar" download
+                        <a href="https://hub.nguyenhx.vn/invo26/release/Invo26_v1.2.2605.26.rar" download
                             class="btn btn-primary" id="btn-download" style="margin-top: 1rem;" >
-                            Tải xuống Invo26 v1.1.2605
+                            Tải xuống Invo26 v1.2.2605
                         </a>    
                         
-                        <p class="checksum"><strong>SHA-256</strong> (.exe): <span id="last-checksum">5BCA8A04E1A3F5C6F96341B7A4E63BF2D33FA8B5C85D0A37C645EA50942CEF41</span></p>
+                        <p class="checksum"><strong>SHA-256</strong> (.exe): <span id="last-checksum">D3ED50F98AC572B381EDB8F6ECBB8AC9F06AB61406803D4F75541EA7CEE35567</span></p>
                     </div>
                     <p style="text-align: center; margin-top: .25rem;">
-                        <a href="https://checksum.nguyenhx.vn/?checksum=5BCA8A04E1A3F5C6F96341B7A4E63BF2D33FA8B5C85D0A37C645EA50942CEF41"
+                        <a href="https://checksum.nguyenhx.vn/?checksum=D3ED50F98AC572B381EDB8F6ECBB8AC9F06AB61406803D4F75541EA7CEE35567"
                            target="_blank" class="link">Kiểm tra tính toàn vẹn của file tải về →</a>
                     </p>
                 </div>
@@ -110,15 +110,33 @@
             <section class="section section-alt">
                 <div class="container">
                     <h2>Lịch sử phát hành</h2>
-
-                    <div class="feature-item">
-                        <h3>v1.1.2605 - 24/5/2026</h3>
-                        <ul>
-                            <li>Tạo hóa đơn điện tử hàng loạt từ biểu mẫu đơn giản</li>
-                            <li>Kiểm tra, đối chiếu số liệu hóa đơn</li>
-                            <li>Tải hóa hàng loạt hóa đơn đầu ra (file pdf)</li>
-                        </ul>
-                        <p class="checksum"><strong>SHA-256</strong> (.exe): <span class="file-checksum">5BCA8A04E1A3F5C6F96341B7A4E63BF2D33FA8B5C85D0A37C645EA50942CEF41</span></p>
+                    <div class="history-wrapper" style="display:flex;flex-direction: column;gap:1rem;">
+                        <script>
+                            function goToChecksum(el){
+                                const cs = el.querySelector("span.file-checksum")?.textContent ?? "";
+                                window.open(
+                                    `https://checksum.nguyenhx.vn/?checksum=${cs}`,
+                                    '_blank'
+                                );
+                            }
+                        </script>
+                        <div class="feature-item">
+                            <h3>v1.2.2605 - 26/5/2026</h3>
+                            <ul>
+                                <li>Sửa lỗi không tải được hóa đơn trên một số thiết bị.</li>
+                                <li>Tối ưu tiến trình tải hóa đơn</li>
+                            </ul>
+                            <p class="checksum" style="cursor: pointer;" onclick="goToChecksum(this)"><strong >SHA-256</strong> (.exe): <span class="file-checksum">D3ED50F98AC572B381EDB8F6ECBB8AC9F06AB61406803D4F75541EA7CEE35567</span> </p>
+                        </div>
+                        <div class="feature-item">
+                            <h3>v1.1.2605 - 24/5/2026</h3>
+                            <ul>
+                                <li>Tạo hóa đơn điện tử hàng loạt từ biểu mẫu đơn giản</li>
+                                <li>Kiểm tra, đối chiếu số liệu hóa đơn</li>
+                                <li>Tải hóa hàng loạt hóa đơn đầu ra (file pdf)</li>
+                            </ul>
+                            <p class="checksum" style="cursor: pointer;" onclick="goToChecksum(this)"><strong >SHA-256</strong> (.exe): <span class="file-checksum">5BCA8A04E1A3F5C6F96341B7A4E63BF2D33FA8B5C85D0A37C645EA50942CEF41</span></p>
+                        </div>
                     </div>
                 </div>
             </section>
