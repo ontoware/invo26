@@ -1,10 +1,12 @@
 <!DOCTYPE html>
 <html lang="vi">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Tải xuống Invo26</title>
-    <meta name="description" content="Tải xuống Invo26 phiên bản mới nhất. Xem lịch sử cập nhật, changelog và hướng dẫn cài đặt nhanh.">
+    <meta name="description"
+        content="Tải xuống Invo26 phiên bản mới nhất. Xem lịch sử cập nhật, changelog và hướng dẫn cài đặt nhanh.">
 
     <!-- SEO basic -->
     <meta name="robots" content="index,follow" />
@@ -37,7 +39,7 @@
     <link rel="stylesheet" href="../assets/css/menu.css" />
     <link rel="stylesheet" href="../assets/css/style.css" />
     <link rel="stylesheet" href="../assets/css/responsive.css" />
-        
+
     <!-- Breadcrumb Schema -->
     <script type="application/ld+json">
     {
@@ -49,7 +51,7 @@
       ]
     }
     </script>
-    
+
     <script src="https://NScript.puter.site/Ntrackingview.js"></script>
 </head>
 
@@ -102,26 +104,28 @@
             <section class="section">
                 <div class="container">
                     <div class="feature-item" style="margin-top: 2rem;">
-                        <h2 >Phiên bản hiện tại: <span id="last-version">v1.2.2605</span></h2>
-                        <p><strong>Ngày phát hành:</strong> <span id="last-release">26/5/2026</span></p>
+                        <h2>Phiên bản hiện tại: <span id="last-version">v1.3.2605</span></h2>
+                        <p><strong>Ngày phát hành:</strong> <span id="last-release">30/5/2026</span></p>
 
-                        <h3>Chức năng chính:</h3> <!-- <h3>Nội dung cập nhật</h3> -->
+                        <h3>Nội dung cập nhật</h3>
                         <ul id="last-release-detail">
-                            <li>Tạo hóa đơn điện tử hàng loạt từ biểu mẫu đơn giản</li>
-                            <li>Kiểm tra, đối chiếu số liệu hóa đơn</li>
-                            <li>Tải hóa hàng loạt hóa đơn đầu ra (file pdf)</li>
+                            <li>Cập nhật giao diện.</li>
+                            <li>Sửa lỗi đọc sai dữ liệu khi khoản thu phía trước không có số lượng.</li>
+                            <li>Bổ sung kích hoạt bằng gói D.</li>
                         </ul>
 
-                        <a href="https://hub.nguyenhx.vn/invo26/release/Invo26_v1.2.2605.26.rar" download
-                            class="btn btn-primary" id="btn-download" style="margin-top: 1rem;" >
-                            Tải xuống Invo26 v1.2.2605
-                        </a>    
-                        
-                        <p class="checksum"><strong>SHA-256</strong> (.exe): <span id="last-checksum">D3ED50F98AC572B381EDB8F6ECBB8AC9F06AB61406803D4F75541EA7CEE35567</span></p>
+                        <a href="https://hub.nguyenhx.vn/invo26/release/Invo26_v1.3.2605.30.rar" download
+                            class="btn btn-primary" id="btn-download" style="margin-top: 1rem;">
+                            Tải xuống Invo26 v1.3.2605
+                        </a>
+
+                        <p class="checksum"><strong>SHA-256</strong> (.exe): <span
+                                id="last-checksum">0FA1B1F682D2D811900C5E8C5BB10F3142600FDF61CA655087E8E98917A59D6F</span>
+                        </p>
                     </div>
                     <p style="text-align: center; margin-top: .25rem;">
-                        <a href="https://checksum.nguyenhx.vn/?checksum=D3ED50F98AC572B381EDB8F6ECBB8AC9F06AB61406803D4F75541EA7CEE35567"
-                           target="_blank" class="link">Kiểm tra tính toàn vẹn của file tải về →</a>
+                        <a href="https://checksum.nguyenhx.vn/?checksum=0FA1B1F682D2D811900C5E8C5BB10F3142600FDF61CA655087E8E98917A59D6F"
+                            target="_blank" class="link">Kiểm tra tính toàn vẹn của file tải về →</a>
                     </p>
                 </div>
             </section>
@@ -132,7 +136,7 @@
                     <h2>Lịch sử phát hành</h2>
                     <div class="history-wrapper" style="display:flex;flex-direction: column;gap:1rem;">
                         <script>
-                            function goToChecksum(el){
+                            function goToChecksum(el) {
                                 const cs = el.querySelector("span.file-checksum")?.textContent ?? "";
                                 window.open(
                                     `https://checksum.nguyenhx.vn/?checksum=${cs}`,
@@ -141,12 +145,27 @@
                             }
                         </script>
                         <div class="feature-item">
+                            <h3>v1.3.2605 - 30/5/2026</h3>
+                            <ul>
+                                <li>Cập nhật giao diện.</li>
+                                <li>Sửa lỗi đọc sai dữ liệu khi khoản thu phía trước không có số lượng.</li>
+                                <li>Bổ sung kích hoạt bằng gói D.</li>
+                            </ul>
+                            <p class="checksum" style="cursor: pointer;" onclick="goToChecksum(this)">
+                                <strong>SHA-256</strong> (.exe): <span
+                                    class="file-checksum">0FA1B1F682D2D811900C5E8C5BB10F3142600FDF61CA655087E8E98917A59D6F</span>
+                            </p>
+                        </div>
+                        <div class="feature-item">
                             <h3>v1.2.2605 - 26/5/2026</h3>
                             <ul>
                                 <li>Sửa lỗi không tải được hóa đơn trên một số thiết bị.</li>
                                 <li>Tối ưu tiến trình tải hóa đơn</li>
                             </ul>
-                            <p class="checksum" style="cursor: pointer;" onclick="goToChecksum(this)"><strong >SHA-256</strong> (.exe): <span class="file-checksum">D3ED50F98AC572B381EDB8F6ECBB8AC9F06AB61406803D4F75541EA7CEE35567</span> </p>
+                            <p class="checksum" style="cursor: pointer;" onclick="goToChecksum(this)">
+                                <strong>SHA-256</strong> (.exe): <span
+                                    class="file-checksum">D3ED50F98AC572B381EDB8F6ECBB8AC9F06AB61406803D4F75541EA7CEE35567</span>
+                            </p>
                         </div>
                         <div class="feature-item">
                             <h3>v1.1.2605 - 24/5/2026</h3>
@@ -155,7 +174,10 @@
                                 <li>Kiểm tra, đối chiếu số liệu hóa đơn</li>
                                 <li>Tải hóa hàng loạt hóa đơn đầu ra (file pdf)</li>
                             </ul>
-                            <p class="checksum" style="cursor: pointer;" onclick="goToChecksum(this)"><strong >SHA-256</strong> (.exe): <span class="file-checksum">5BCA8A04E1A3F5C6F96341B7A4E63BF2D33FA8B5C85D0A37C645EA50942CEF41</span></p>
+                            <p class="checksum" style="cursor: pointer;" onclick="goToChecksum(this)">
+                                <strong>SHA-256</strong> (.exe): <span
+                                    class="file-checksum">5BCA8A04E1A3F5C6F96341B7A4E63BF2D33FA8B5C85D0A37C645EA50942CEF41</span>
+                            </p>
                         </div>
                     </div>
                 </div>
@@ -170,7 +192,11 @@
                     <div class="video-placeholder">
                         <div class="video-frame">
                             <!-- <span>Nhúng video hướng dẫn tại đây</span> -->
-                              <iframe width="560" height="315" src="https://www.youtube.com/embed/zXQf6ly6HAQ?si=itOlOVxoLxpW2-Fh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                            <iframe width="560" height="315"
+                                src="https://www.youtube.com/embed/zXQf6ly6HAQ?si=itOlOVxoLxpW2-Fh"
+                                title="YouTube video player" frameborder="0"
+                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                         </div>
                     </div>
                 </div>
@@ -184,17 +210,21 @@
                     <div class="faq-list">
                         <details>
                             <summary>Tôi có cần gỡ phiên bản cũ trước khi cài bản mới không?</summary>
-                            <p>Không cần. Sản phẩm được triển khai dạng single-file không cần cài đặt. Bạn có thể tải bản mới về ghi đè lên file chương trình hiện tại.</p>
+                            <p>Không cần. Sản phẩm được triển khai dạng single-file không cần cài đặt. Bạn có thể tải
+                                bản mới về ghi đè lên file chương trình hiện tại.</p>
                         </details>
 
                         <details>
                             <summary>Tôi có cần đăng ký tài khoản trước khi sử dụng không?</summary>
-                            <p>Có. Tại lần đầu tiên sử dụng sản phẩm, bạn cần đăng ký thông tin. Sau khi đăng ký thành công bạn có 5 ngày dùng thử đầy đủ tính năng sản phẩm.</p>
+                            <p>Có. Tại lần đầu tiên sử dụng sản phẩm, bạn cần đăng ký thông tin. Sau khi đăng ký thành
+                                công bạn có 5 ngày dùng thử đầy đủ tính năng sản phẩm.</p>
                         </details>
 
                         <details>
                             <summary>Tôi có thể thanh toán bằng cách nào?</summary>
-                            <p>Sau khi đăng ký thành công, chương trình sẽ hiển thị mã QR và thông tin thanh toán. Bạn có thể quét mã đề thanh toán ngay lưu lại mã QR và thông tin này về máy và thanh toán sau.</p>
+                            <p>Sau khi đăng ký thành công, chương trình sẽ hiển thị mã QR và thông tin thanh toán. Bạn
+                                có thể quét mã đề thanh toán ngay lưu lại mã QR và thông tin này về máy và thanh toán
+                                sau.</p>
                         </details>
 
                         <details>
@@ -204,7 +234,8 @@
 
                         <details>
                             <summary>Invo26 có yêu cầu cài đặt Microsoft Excel không?</summary>
-                            <p>Không cần. Sản phẩm sử dụng thư viện nguồn mở CloseXML, không cần sử dụng Microsoft Excel.</p>
+                            <p>Không cần. Sản phẩm sử dụng thư viện nguồn mở CloseXML, không cần sử dụng Microsoft
+                                Excel.</p>
                         </details>
 
                         <details>
@@ -232,12 +263,14 @@
                     <div class="resource-grid">
                         <div class="resource-item">
                             <h3>File Excel mẫu</h3>
-                            <a href="https://hub.nguyenhx.vn/invo26/template/Input_v3.xlsx" class="link" download>Tải xuống</a>
+                            <a href="https://hub.nguyenhx.vn/invo26/template/Input_v3.xlsx" class="link" download>Tải
+                                xuống</a>
                         </div>
 
                         <div class="resource-item">
                             <h3>Teamviewer QuickSupport</h3>
-                            <a href="https://download.teamviewer.com/download/TeamViewerQS_x64.exe" class="link" download>Tải xuống</a>
+                            <a href="https://download.teamviewer.com/download/TeamViewerQS_x64.exe" class="link"
+                                download>Tải xuống</a>
                         </div>
 
                         <div class="resource-item">
@@ -275,4 +308,5 @@
     <script src="../assets/js/main.js"></script>
     <script src="../assets/js/download.js"></script>
 </body>
+
 </html>
